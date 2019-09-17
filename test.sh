@@ -1,8 +1,8 @@
 #!/bin/bash
 
-dir=$(`pwd`)
-cd $dir
+direc=$(pwd)
+cd $direc
 num=$(ls -1 | wc -l)
-echo "$dir contains  $num files"
+echo "$direc contains  $num files"
 cd 
 
